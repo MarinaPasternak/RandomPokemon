@@ -12,6 +12,9 @@ Project which show information about random pokemon
 
 ![Screenshot 2024-07-10 214253](https://github.com/MarinaPasternak/RandomPokemon/assets/31963187/6f773926-055e-4436-8be7-cc2014f82f8b)
 
+## Deploy
+https://random-pokemon-a5d00.firebaseapp.com/
+
 ## Technologies Used
 - Vue.js
 - Vuex
