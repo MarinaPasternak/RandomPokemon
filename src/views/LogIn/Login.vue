@@ -1,5 +1,5 @@
 <template>
-    <div class="m-auto flex justify-between">
+    <div class="m-auto flex justify-between h-screen">
         <div class="login-form flex items-center justify-center flex-col p-6 max-w-sm bg-white">
             <h2 class="mb-3 text-lg text-center uppercase font-bold">Log In to continue</h2>
             <form @submit.prevent="pressed">
@@ -69,7 +69,7 @@
                 <p>{{ errorMessage }}</p>
             </div>
         </div>
-        <div class="image-block flex justify-center items-center w-3/4 ml-4 bg-blue-200 rounded-l-lg">
+        <div class="image-block flex justify-center items-center w-3/4 ml-4 mb-4 bg-blue-200 rounded-l-lg">
             <img src="./images/pokemon-login-image.png" alt="Pokemon" class="h-96 p-8" />
         </div>
     </div>
@@ -112,4 +112,5 @@
 </script>
 
 <style scoped>
+
 </style>
